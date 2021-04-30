@@ -1,0 +1,520 @@
+body{
+  background-color: black;
+  animation-name: anochecer;
+  animation-duration: 5s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes anochecer {
+  from {
+    background-color: orange;
+  }
+  to {
+    background-color: black;
+  }
+}
+
+.ventanas{
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  position: absolute;
+  border: solid 2px black;
+}
+
+.nubes{
+  width: 350px;
+  height: 120px;
+  background: #BFF;
+  background: linear-gradient(top, #BFF 5%, #DFF 100%);
+  background: -webkit-linear-gradient(top, #FFF 1%, #BFF 100%);
+  background: -moz-linear-gradient(top, #BFF 5%, #DFF 100%);
+  background: -ms-linear-gradient(top, #BFF 5%, #DFF 100%);
+  background: -o-linear-gradient(top, #BFF 5%, #DFF 100%);
+  border-radius: 100px;
+  position: absolute;
+  margin: 120px auto 20px;
+}
+
+.humito{
+  width: 40px;
+  height: 40px;
+  background-color: grey;
+  position: absolute;
+  top: 130px;
+  left: 550px;
+  border-radius: 50%;
+  opacity: 70%;
+}
+
+
+
+.humito::after{
+  width: 70px;
+  height: 70px;
+  background-color: grey;
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 10px;
+  border-radius: 50%;
+  animation-name: humito1;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes humito1 {
+  from {
+    top: -30px;
+    left: 10px;
+  }
+  to {
+    top: -40px;
+    left: 15px;
+  }
+}
+
+.humito::before{
+  width: 90px;
+  height: 90px;
+  background-color: grey;
+  content: "";
+  position: absolute;
+  top: -70px;
+  left: 10px;
+  border-radius: 50%;
+  animation-name: humito2;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes humito2 {
+  from {
+    top: -70px;
+    left: 10px;
+  }
+  to {
+    top: -85px;
+    left: 13px;
+  }
+}
+
+#fachada{
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+  position: absolute;
+  left: 400px;
+  top: 300px;
+  border: solid 4px black;
+}
+
+#tejado{
+  width: 250px;
+  height: 70px;
+  background-color: red;
+  position: absolute;
+  left: 375px;
+  top: 230px;
+  border: solid 4px black;
+  border-radius: 30px 30px 0 0;
+}
+
+#ventana1{
+  left: 425px;
+  top: 350px;
+  border-radius: 20px 0px 0px 0px;
+  animation-name: ventana1;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-fill-mode: both;
+}
+
+@keyframes ventana1 {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+
+#ventana2{
+  left: 525px;
+  top: 350px;
+  border-radius: 0px 20px 0px 0px;
+  animation-name: ventana2;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-fill-mode: both;
+}
+
+
+@keyframes ventana2 {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+
+#puerta{
+  width: 50px;
+  height: 70px;
+  background-color: brown;
+  position: absolute;
+  left: 478px;
+  top: 433px;
+  border: solid 2px black;
+}
+
+#chimenea{
+  width: 30px;
+  height: 60px;
+  background-color: brown;
+  position: absolute;
+  left: 550px;
+  top: 168px;
+  border: solid 4px black;
+}
+
+#luna{
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  position: relative;
+  left: 850px;
+  top: 50px;
+  border-radius: 50%;
+  animation-name: luna;
+  animation-duration: 5s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes luna {
+  from {
+    top: 500px;
+    left: 850px;
+    background-color: orange;
+  }
+  to {
+    top: 50px;
+    left: 850px;
+    background-color: white;
+  }
+}
+
+#cesped{
+  width: 960px;
+  height: 500px;
+  background-color: green;
+  position: absolute;
+  left: 250px;
+  top: 500px;
+  border-radius: 20px 20px 0px 0px;
+  border: solid 1px black;
+}
+
+#tierra{
+  width: 960px;
+  height: 500px;
+  background-color: brown;
+  position: absolute;
+  left: 250px;
+  top: 600px;
+  border-radius: 20px 20px 0px 0px;
+  border: solid 1px black;
+}
+
+#cesped2{
+  width: 10px;
+  height: 15px;
+  background-color: green;
+  position: relative;
+  left: 250px;
+  top: 240px;
+  border-radius: 20px 0px 0px 20px;
+  animation-name: cesped2;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes cesped2 {
+  from {
+    transform: rotate(-12deg);
+  }
+  to {
+    transform: rotate(12deg);
+  }
+}
+
+#cesped3{
+  width: 10px;
+  height: 15px;
+  background-color: green;
+  position: absolute;
+  left: 300px;
+  top: 495px;
+  border-radius: 20px 0px 0px 20px;
+  animation-name: cesped3;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes cesped3 {
+  from {
+    transform: rotate(-10deg);
+  }
+  to {
+    transform: rotate(14deg);
+  }
+}
+
+#cesped4{
+  width: 10px;
+  height: 15px;
+  background-color: green;
+  position: absolute;
+  left: 400px;
+  top: 495px;
+  border-radius: 0px 20px 20px 0px;
+  animation-name: cesped4;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes cesped4 {
+  from {
+    transform: rotate(-14deg);
+  }
+  to {
+    transform: rotate(17deg);
+  }
+}
+
+#cesped5{
+  width: 10px;
+  height: 15px;
+  background-color: green;
+  position: absolute;
+  left: 620px;
+  top: 495px;
+  border-radius: 0px 20px 20px 0px;
+  animation-name: cesped5;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes cesped5 {
+  from {
+    transform: rotate(-14deg);
+  }
+  to {
+    transform: rotate(17deg);
+  }
+}
+
+#cesped6{
+  width: 10px;
+  height: 15px;
+  background-color: green;
+  position: absolute;
+  left: 765px;
+  top: 495px;
+  border-radius: 20px 0px 0px 20px;
+  animation-name: cesped6;
+  animation-duration: 1s;
+  animation-delay: 5s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes cesped6 {
+  from {
+    transform: rotate(-14deg);
+  }
+  to {
+    transform: rotate(20deg);
+  }
+}
+
+#cesped7{
+  width: 10px;
+  height: 15px;
+  background-color: green;
+  position: absolute;
+  left: 800px;
+  top: 495px;
+  border-radius: 20px 0px 0px 20px;
+  animation-name: cesped7;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes cesped7 {
+  from {
+    transform: rotate(-14deg);
+  }
+  to {
+    transform: rotate(20deg);
+  }
+}
+
+#cesped8{
+  width: 10px;
+  height: 15px;
+  background-color: green;
+  position: absolute;
+  left: 900px;
+  top: 495px;
+  border-radius: 0px 20px 20px 0px;
+}
+
+#nube{
+  top: 5px;
+  left: 5px;
+  animation-name: nube;
+  animation-duration: 40s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  }
+
+  @keyframes nube {
+    from {
+      top: 5px;
+      left: 5px;
+    }
+    to {
+      top: 5px;
+      left: 850px;
+    }
+  }
+
+#nube2{
+  top: 350px;
+  left: 800px;
+  animation-name: nube2;
+  animation-duration: 40s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  }
+
+  @keyframes nube2 {
+    from {
+      top: 350px;
+      left: 850px;
+    }
+    to {
+      top: 350px;
+      left: 1050px;
+    }
+  }
+
+#nube:after, #nube:before {
+  content: '';
+  position: absolute;
+  background: #FFF;
+  z-index: -1
+  }
+
+#nube:after {
+  width: 100px;
+  height: 100px;
+  top: -50px;
+  left: 50px;
+  border-radius: 100px;
+  }
+
+#nube:before {
+  width: 200px;
+  height: 200px;
+  top: -90px;
+  right: 50px;
+  border-radius: 200px;
+  }
+
+#nube2:after, #nube2:before {
+  content: '';
+  position: absolute;
+  background: #FFF;
+  z-index: -1
+  }
+
+#nube2:after {
+  width: 100px;
+  height: 100px;
+  top: -50px;
+  left: 50px;
+  border-radius: 100px;
+  }
+
+#nube2:before {
+  width: 200px;
+  height: 200px;
+  top: -90px;
+  right: 50px;
+  border-radius: 200px;
+  }
+
+#montaña1{
+  width: 600px;
+  height: 900px;
+  background-color: brown;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  position: absolute;
+  top: 200px;
+}
+
+#montaña2{
+  width: 400px;
+  height: 260px;
+  position: absolute;
+  left: 95px;
+  top: -60px;
+  background-color: white;
+  clip-path: polygon(36% 76%, 71% 85%, 100% 100%, 0% 100%);
+}
+
+#montaña3{
+  width: 600px;
+  height: 700px;
+  background-color: brown;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  position: absolute;
+  top: 400px;
+  left: 800px;
+}
+
+#planta1{
+  width: 5px;
+  height: 30px;
+  background-color: green;
+  position: absolute;
+  left: 970px;
+  top: 485px;
+}

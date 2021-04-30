@@ -1,0 +1,68 @@
+body{
+  background-color: black;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+p{
+  margin: auto;
+}
+
+h1{
+  color: white;
+  background-color: black;
+  transition-duration: 0.4s;
+}
+
+input{
+  color: white;
+  height: 20px;
+  width: 100px;
+}
+
+input,datetime{
+  color: black;
+}
+
+.cajitas{
+  width: 150px;
+  background-color: purple;
+  margin: 15px;
+}
+
+::-webkit-input-placeholder {
+   color: lightgrey;
+ }
+
+ .boton {
+   background-color: #008CBA;
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 5px;
+ }
+
+ .boton {
+  transition-duration: 0.4s;
+}
+
+.boton:hover {
+  background-color: purple;
+  color: white;
+}
+
+#selector{
+  margin: 10px;
+}
+
+#formulario{
+  background-color: grey;
+  width: 220px;
+  height: 720px;
+  color: white;
+  margin-left: 700px;
+}

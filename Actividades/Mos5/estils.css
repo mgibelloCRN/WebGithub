@@ -1,0 +1,66 @@
+body{
+  background-color: cyan;
+  margin: 0;
+  padding: 0;
+}
+
+div{
+  width: 200px;
+  height: 200px;
+  font-size: 25px;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  line-height: 200px;
+  margin: 10px;
+  float: left;
+}
+
+#uno{
+  background-color:#512E5F;
+}
+
+#dos{
+  background-color:#633974;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+#tres{
+  background-color:#76448A;
+}
+
+#cuatro{
+  background-color:#884EA0;
+  position: relative;
+  left: 50px;
+  top: 50px;
+}
+
+#cinco{
+  background-color:#9B59B6;
+}
+
+#seis{
+  background-color:#AF7AC5;
+}
+
+#siete{
+  background-color:#D7BDE2;
+}
+
+#ocho{
+  background-color:#EBDEF0;
+  position: absolute;
+  top: 500px;
+  left: 350px;
+}
+
+#nueve{
+  background-color:#F5EEF8;
+}
+
+#diez{
+  background-color:#F4ECF7;
+}

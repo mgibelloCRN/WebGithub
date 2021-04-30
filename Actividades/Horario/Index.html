@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es-es">
+<link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="utf-8">
+    <meta author="AGM2-MarcG">
+    <title>Horario</title>
+  </head>
+<style>
+
+  @keyframes tabla {
+    from {top: 0px;opacity:0}
+    to {top: 250px;opacity:100}
+  }
+
+  div{
+    position: relative;
+    animation-name: tabla;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    }
+
+  body{
+    background-color: black;
+    background-image: radial-gradient(circle, #440044, #AA00AA, #FF00FF);
+    }
+
+  .no-seleccionable {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    }
+
+  table{
+    font-family: 'Merienda One', cursive;
+    }
+
+  th:hover{
+    background-color: #CC33FF;
+    }
+  td:hover{
+    background-color: #CC00FF;
+    }
+
+</style>
+  <body>
+    <div>
+      <table class="no-seleccionable" border="2px" bgcolor="#CC99CC" width="700px" align="center">
+        <tr bgcolor="purple" height="40px">
+          <th width="100px"><font color="white">AGM2</font></th>
+          <th width="100px"><font color="white">DILLUNS</font></th>
+          <th width="100px"><font color="white">DIMARTS</font></th>
+          <th width="100px"><font color="white">DIMECRES</font></th>
+          <th width="100px"><font color="white">DIJOUS</font></th>
+          <th width="100px"><font color="white">DIVENDRES</font></th>
+        </tr>
+        <tr>
+          <td bgcolor="purple"><font color="white"><center>16.00 <br> 17.00</center></font></td>
+          <td><center>MP 05 <br> Carlos</center></td>
+          <td><center>MP 04 <br> Elisenda</center></td>
+          <td><center>TUTORIA <br> Carlos</center></td>
+          <td><center>MP 08 <br> Laura</center></td>
+          <td><center>MP 08 <br> Laura</center></td>
+        </tr>
+        <tr>
+          <td bgcolor="purple"><font color="white"><center>17.00 <br> 18.00</center></font></td>
+          <td><center>MP 05 <br> Carlos</center></td>
+          <td><center>MP 04 <br> Elisenda</center></td>
+          <td><center>MP 08 <br> Laura</center></td>
+          <td><center>MP 08 <br> Laura</center></td>
+          <td><center>MP 08 <br> Laura</center></td>
+        </tr>
+        <tr>
+          <td bgcolor="purple"><font color="white"><center>18.00 <br> 18.30</center></font></td>
+          <td><center>DESCANSO</center></td>
+          <td><center>DESCANSO</center></td>
+          <td><center>DESCANSO</center></td>
+          <td><center>DESCANSO</center></td>
+          <td><center>DESCANSO</center></td>
+        </tr>
+        <tr>
+          <td bgcolor="purple"><font color="white"><center>18.30 <br> 19.30</center></font></td>
+          <td><center>MP 03 <br> Sergi</center></td>
+          <td><center>MP 05 <br> Carlos</center></td>
+          <td><center>MP 05 <br> Carlos</center></td>
+          <td><center>MP 04 <br> Elisenda</center></td>
+          <td><center>MP 03 <br> Sergi</center></td>
+        </tr>
+        <tr>
+          <td bgcolor="purple"><font color="white"><center>19.30 <br> 20.30</center></font></td>
+          <td><center>MP 03 <br> Sergi</center></td>
+          <td><center>MP 05 <br> Carlos</center></td>
+          <td><center>MP 05 <br> Carlos</center></td>
+          <td><center>MP 04 <br> Elisenda</center></td>
+          <td><center>MP 03 <br> Sergi</center></td>
+        </tr>
+      </table>
+    </div>
+
+  </body>
+</html>
