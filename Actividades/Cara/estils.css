@@ -1,0 +1,140 @@
+body{
+  background-color: grey;
+  margin: 0 auto;
+}
+
+.ojos{
+width: 130px;
+height: 100px;
+clip-path: ellipse(44% 17% at 50% 50%);
+background-color: white;
+position: absolute;
+top: 300px;
+}
+
+#cara{
+  margin-left: 600px;
+  margin-top: 100px;
+  height: 600px;
+  width: 500px;
+  border-radius: 47% 53% 53% 47% / 30% 30% 70% 70%;
+  background-color: #F5CBA7;
+}
+
+#ojo1{
+  left: 690px;
+}
+
+#ojo1iris{
+  width: 30px;
+  height: 30px;
+  background-color: grey;
+  position: absolute;
+  border-radius: 50%;
+  left: 744px;
+  top: 334px;
+}
+
+#ojo2iris{
+  width: 30px;
+  height: 30px;
+  background-color: grey;
+  position: absolute;
+  border-radius: 50%;
+  left: 930px;
+  top: 334px;
+}
+
+#ojo2{
+  left: 880px;
+}
+
+#nariz{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+clip-path: polygon(42% 2%, 56% 2%, 59% 19%, 62% 39%, 72% 64%, 63% 73%, 38% 73%, 24% 63%, 30% 49%, 38% 15%);
+  position: absolute;
+  background-color: #F0B27A;
+  left: 760px;
+  top: 360px;
+}
+
+#gafas1{
+  width: 170px;
+  height: 120px;
+  position: absolute;
+  clip-path: polygon(0% 0%, 0 100%, 14% 100%, 14% 13%, 86% 13%, 85% 87%, 11% 87%, 14% 100%, 100% 100%, 100% 0%);
+  background-color: black;
+  left: 670px;
+  top: 290px;
+}
+
+#gafas2{
+  width: 170px;
+  height: 120px;
+  position: absolute;
+  clip-path: polygon(0% 0%, 0 100%, 14% 100%, 14% 13%, 86% 13%, 85% 87%, 11% 87%, 14% 100%, 100% 100%, 100% 0%);
+  background-color: black;
+  left: 870px;
+  top: 290px;
+}
+
+#gafastope{
+width: 50px;
+height: 20px;
+position: absolute;
+background-color: black;
+left: 840px;
+top: 350px;
+}
+
+#gafaspatilla1{
+  height: 200px;
+  width: 100px;
+  clip-path: polygon(100% 44%, 100% 57%, 0 46%, 0 37%);
+  position: absolute;
+  background-color: black;
+  left: 570px;
+  top: 210px;
+}
+
+#boca{
+  width: 130px;
+  height: 130px;
+  clip-path: polygon(67% 38%, 95% 48%, 66% 61%, 25% 60%, 5% 47%, 26% 38%);
+  position: absolute;
+  background-color: pink;
+  left: 780px;
+  top: 500px;
+}
+
+#pelo1{
+  width: 450px;
+  height: 450px;
+  clip-path: polygon(10% 29%, 42% 31%, 66% 46%, 78% 61%, 98% 72%, 46% 70%, 21% 54%);
+  position: absolute;
+  background-color: black;
+  left: 750px;
+  top: -50px;
+}
+
+#pelo2{
+  width: 350px;
+  height: 250px;
+  clip-path: polygon(19% 31%, 40% 20%, 68% 16%, 100% 21%, 93% 73%, 5% 89%, 10% 66%);
+  position: absolute;
+  background-color: black;
+  left: 540px;
+  top: 40px;
+}
+
+#barba{
+  width: 230px;
+  height: 250px;
+  clip-path: polygon(4% 79%, 100% 79%, 100% 89%, 56% 100%, 6% 91%);
+  position: absolute;
+  background-color: black;
+  left: 730px;
+  top: 460px;
+}
